@@ -43,7 +43,7 @@ public partial class AppServices
             using (NpgsqlConnection connection = new NpgsqlConnection(ConnectionString))
             {
                 connection.Open();
-                Console.WriteLine("Successfully Connected!");
+                Console.WriteLine("Successfully Connected!\nTap to continue");
                 connection.Close();
             }
         }
